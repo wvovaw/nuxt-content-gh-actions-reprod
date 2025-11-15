@@ -4,7 +4,7 @@ import { z } from "zod"
 export default defineContentConfig({
   collections: {
     siteConfig: defineCollection({
-      type: 'site-config',
+      type: 'data',
       source: 'site-config.yml',
       schema: z.object({
         sitename: z.string(),
